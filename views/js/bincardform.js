@@ -1,23 +1,3 @@
-
-/*$('#bincardform').on('submit', function(e){
-	e.preventDefault();
-	$.ajax({
-		url: "ajax/bincardform.ajax.php",
-		method: "POST",
-		data: $(this).serialize(),
-		success: function(data){
-			console.log(data);
-			swal({type: "success", title: "¡Student Course Registration successfully !", showConfirmButton: true, confirmButtonText: "OK"}).then(function(result){
-				if(result.value){
-					window.location = "create-bincard";
-				}
-				});
-		}
-	})
-})*/
-
-
-
 /*=============================================
 EDIT CUSTOMER
 =============================================*/
